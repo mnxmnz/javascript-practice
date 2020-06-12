@@ -20,7 +20,7 @@ li = li.concat('f', 'g', 'h');
 alert(li);
 </code>
 </pre>
-* 배열의 시작점에 원소 추가하기
+* 배열의 시작점에 데이터 추가하기
 <pre>
 <code>
 li.unshift('z');
