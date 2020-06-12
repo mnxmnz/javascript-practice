@@ -23,6 +23,7 @@ alert(li);
 * 배열의 시작점에 데이터 추가하기
 <pre>
 <code>
+var li = ['a', 'b', 'c', 'd', 'e'];
 li.unshift('z');
 alert(li);
 </code>
