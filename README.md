@@ -3,7 +3,6 @@
 * Coding Everybody Language JS
 * https://opentutorials.org/course/743
 * 생활 코딩 언어 JS 강의 실습 코드입니다.
-<hr/>
 ## 배열
 * 배열에 데이터 한 개 추가하기
 <pre>
