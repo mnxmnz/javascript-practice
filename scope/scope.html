@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+    </head>
+    <body>
+        <script type="text/javascript">
+            // var vscope = 'global';
+            // function fscope() {
+            //     var vscope = 'local';
+            //     alert(vscope); //alert(자기 자신)에서 가까운 vscope 출력
+            // }
+            // fscope(); //local 출력
+
+            // var vscope = 'global'; //alert(vscope)에서 호출
+            // function fscope() {
+            //     vscope = 'local'; //var가 없으므로 전역 변수 vscope의 값 변경
+            // }
+            // fscope();
+            // alert(vscope); //local 출력
+
+            var vscope = 'global';
+            function fscope() {
+                var vscope = 'local'; //지역 변수 vscope 생성
+                vscope = 'local'; //지역 변수 vscope의 값만 변경
+            }
+            fscope();
+            alert(vscope); //global 출력
+        </script>
+    </body>
+</html>
