@@ -83,3 +83,35 @@ function b() {
 a(); //5 출력
 </code>
 </pre>
+
+## 함수
+* 메소드
+* 객체의 속성 값으로 담겨진 함수
+<pre>
+<code>
+a = {
+    b:function(){}
+}
+</code>
+</pre>
+
+## 값으로서 함수와 콜백
+* 콜백
+* 함수의 동작 방법을 값을 전달하는 것을 통해서 완전하게 바꿀 수 있음
+<pre>
+<code>
+    var numbers = [20, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1];
+    alert(numbers.sort());
+</code>
+</pre>
+* sortfunc 함수의 내용을 인자로 받은 후 내부적으로 호출함
+* sortfunc 콜백 함수를 이용해서 sort 함수의 동작 방법을 변경함
+<pre>
+<code>
+    var numbers = [20, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1];
+    var sortfunc = function (a, b) {
+        return a - b;
+    };
+    alert(numbers.sort(sortfunc));
+</code>
+</pre>
