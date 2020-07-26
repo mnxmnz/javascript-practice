@@ -149,5 +149,5 @@ set_title: function(_title) {
 </pre>
 
 ### 복습 항목 
-- [x] 함수지향 - 값으로서의 함수와 콜백 (비동기 콜백과 Ajax)
-- [x] 함수지향 - 클로저 (클로저의 응용)
+- [x] [함수지향 - 값으로서의 함수와 콜백 (비동기 콜백과 Ajax)](https://www.youtube.com/watch?v=NDFjwybbong)
+- [x] [함수지향 - 클로저 (클로저의 응용)](https://www.youtube.com/watch?v=9A0pMrS6Bh0)
