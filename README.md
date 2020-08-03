@@ -112,6 +112,7 @@ a = {
 </pre>
 
 ## 값으로서 함수와 콜백
+
 * 콜백
 * 함수의 동작 방법을 값을 전달하는 것을 통해서 완전하게 바꿀 수 있음
 <pre>
@@ -125,6 +126,7 @@ a = {
 </pre>
 
 ## 클로저
+
 * 내부 함수에서 외부 함수의 지역 변수에 접근할 수 있음
 * inner 함수에서 title 변수에 접근할 수 있음
 <pre>
@@ -141,6 +143,7 @@ inner(); //JS 출력
 </pre>
 
 ## arguments
+
 * 인자의 개수를 알 수 있음
 <pre>
 <code>
@@ -155,9 +158,24 @@ arguments[i]
 </code>
 </pre>
 
+## 생성자
+
+* 객체에 대한 초기화(init)
+<pre>
+<code>
+function Person(name) {
+    this.name = name;
+    this.introduce = function () {
+        return 'My name is ' + this.name;
+    }
+}
+</code>
+</pre>
+
 # Web Browser JS
 
 ### 복습 (Language JS)
+
 - [x] [함수지향 - 값으로서의 함수와 콜백 (비동기 콜백과 Ajax)](https://www.youtube.com/watch?v=NDFjwybbong)
 - [x] [함수지향 - 클로저 (클로저의 응용)](https://www.youtube.com/watch?v=9A0pMrS6Bh0)
 - [x] [함수지향 - 함수의 호출 (apply 사용)](https://www.youtube.com/watch?v=Ubs30Xxe-Ps)
