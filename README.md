@@ -117,11 +117,11 @@ a = {
 * 함수의 동작 방법을 값을 전달하는 것을 통해서 완전하게 바꿀 수 있음
 <pre>
 <code>
-    var numbers = [20, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1];
-    var sortfunc = function (a, b) { //콜백 함수 sortfunc 사용
-        return a - b;
-    };
-    alert(numbers.sort(sortfunc)); //sort 함수 동작 방법 변경
+var numbers = [20, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1];
+var sortfunc = function (a, b) { //콜백 함수 sortfunc 사용
+    return a - b;
+};
+alert(numbers.sort(sortfunc)); //sort 함수 동작 방법 변경
 </code>
 </pre>
 
@@ -172,6 +172,33 @@ function Person(name) {
 </code>
 </pre>
 
+## this
+
+* 메소드와 this
+* 메소드가 소속되어 있는 객체를 가리킨다
+<pre>
+<code>
+var o = {
+    func : function () {
+        if(o === this) {
+            document.write("o === this");
+        }
+    }
+}
+</code>
+</pre>
+
+* 생성자와 this
+* 생성자가 만든 객체를 기리킨다
+<pre>
+<code>
+var o2 = new Func();
+if (funcThis === o2) {
+    document.write('o2 <br />');
+}
+</code>
+</pre>
+
 # Web Browser JS
 
 ### 복습 (Language JS)
@@ -179,5 +206,6 @@ function Person(name) {
 - [x] [함수지향 - 값으로서의 함수와 콜백 (비동기 콜백과 Ajax)](https://www.youtube.com/watch?v=NDFjwybbong)
 - [x] [함수지향 - 클로저 (클로저의 응용)](https://www.youtube.com/watch?v=9A0pMrS6Bh0)
 - [x] [함수지향 - 함수의 호출 (apply 사용)](https://www.youtube.com/watch?v=Ubs30Xxe-Ps)
+- [x] [객체지향 - this (생성자와 this)](https://www.youtube.com/watch?v=TdkYLonYuDw)
 
 ### 복습 (Web Browser JS)
