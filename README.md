@@ -1,12 +1,10 @@
 # JS_studying
 
-> * [JavaScript]
-> * Coding Everybody Language JS
-> * Coding Everybody Web Browser JS
-> * https://opentutorials.org/course/743
-> * https://opentutorials.org/course/1375
-> * 생활 코딩 언어 JS & 웹브라우저 JS 강의 실습 코드입니다.
-> * 아래 README는 강의 내용 중 일부를 문서로 정리한 것입니다.
+* [JavaScript]
+* [Coding Everybody Language JS](https://opentutorials.org/course/743)
+* [Coding Everybody Web Browser JS](https://opentutorials.org/course/1375)
+* README는 강의 내용 중 일부를 정리한 것입니다.
+* 생활 코딩 언어 JS & 웹브라우저 JS 강의 실습 코드입니다.
 
 # Language JS
 
