@@ -199,6 +199,15 @@ if (funcThis === o2) {
 </code>
 </pre>
 
+## 상속
+
+* 객체를 생성자의 프로토타입에 할당해서 특정 객체를 상속받음
+<pre>
+<code>
+Programmer prototype = new Person();
+</code>
+</pre>
+
 # Web Browser JS
 
 ### 복습 (Language JS)
@@ -207,5 +216,8 @@ if (funcThis === o2) {
 - [x] [함수지향 - 클로저 (클로저의 응용)](https://www.youtube.com/watch?v=9A0pMrS6Bh0)
 - [x] [함수지향 - 함수의 호출 (apply 사용)](https://www.youtube.com/watch?v=Ubs30Xxe-Ps)
 - [x] [객체지향 - this (생성자와 this)](https://www.youtube.com/watch?v=TdkYLonYuDw)
+- [x] [객체지향 - this (객체로서 함수)](https://www.youtube.com/watch?v=6I421TLN9vg)
+- [x] [객체지향 - this (apply와 this)](https://www.youtube.com/watch?v=j0TPsYspzbI)
+- [x] [객체지향 - 상속 (상속의 사용법)](https://www.youtube.com/watch?v=mM-4t2J0lYM)
 
 ### 복습 (Web Browser JS)
