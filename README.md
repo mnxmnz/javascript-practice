@@ -1,6 +1,5 @@
 # JS_studying
 
-* [JavaScript]
 * [Coding Everybody Language JS](https://opentutorials.org/course/743)
 * [Coding Everybody Web Browser JS](https://opentutorials.org/course/1375)
 * README는 강의 내용 중 일부를 정리한 것입니다.
