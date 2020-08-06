@@ -205,6 +205,18 @@ Programmer prototype = new Person();
 </code>
 </pre>
 
+* prototype
+* 객체의 원형(메소드, 프로퍼티)이 저장되어 있음
+<pre>
+<code>
+function Ultra() {}
+Ultra.prototype.ultraProp = true;
+
+function Super() {}
+Super.prototype = new Ultra();
+</code>
+</pre>
+
 # Web Browser JS
 
 ### 복습 (Language JS)
