@@ -201,7 +201,11 @@ if (funcThis === o2) {
 * 객체를 생성자의 프로토타입에 할당해서 특정 객체를 상속받음
 <pre>
 <code>
-Programmer prototype = new Person();
+function Person(name) {
+    this.name = name;
+}
+
+Person.prototype.name = null;
 </code>
 </pre>
 
