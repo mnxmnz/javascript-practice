@@ -75,7 +75,7 @@ for(i = 0; i < 5; i++) {
 </code>
 </pre>
 
-* 정적 유효 범위
+* 정적 유효범위
 * 함수가 사용된 시점이 아닌, 정의된 시점에서 변수 사용
 <pre>
 <code>
@@ -137,7 +137,7 @@ inner(); //JS 출력
 </code>
 </pre>
 
-#### books: arguments
+#### :books: arguments
 
 * 인자의 개수를 알 수 있음
 <pre>
