@@ -1,13 +1,11 @@
-# JS_studying
+## :computer: JavaScript
 
 * [Coding Everybody Language JS](https://opentutorials.org/course/743)
 * [Coding Everybody Web Browser JS](https://opentutorials.org/course/1375)
-* README는 강의 내용 중 일부를 정리한 것입니다.
-* 생활 코딩 언어 JS & 웹브라우저 JS 강의 실습 코드입니다.
 
-# Language JS
+### :open_file_folder: Language JS
 
-## 배열
+#### :books: 배열
 
 * 배열에 데이터 한 개 추가하기
 <pre>
@@ -65,7 +63,7 @@
 </code>
 </pre>
 
-## 유효범위
+#### :books: 유효범위
 
 * 지역 변수를 선언할 수 있는 범위는 함수로 제한되어 있음
 * for문이나 if문 내에서 선언된 변수는 지역 변수의 의미를 갖지 않음
@@ -96,7 +94,7 @@ a(); //5 출력
 </code>
 </pre>
 
-## 함수
+#### :books: 함수
 
 * 메소드
 * 객체의 속성 값으로 담겨진 함수
@@ -108,7 +106,7 @@ a = {
 </code>
 </pre>
 
-## 값으로서 함수와 콜백
+#### :books: 값으로서 함수와 콜백
 
 * 콜백
 * 함수의 동작 방법을 값을 전달하는 것을 통해서 완전하게 바꿀 수 있음
@@ -122,7 +120,7 @@ alert(numbers.sort(sortfunc)); //sort 함수 동작 방법 변경
 </code>
 </pre>
 
-## 클로저
+#### :books: 클로저
 
 * 내부 함수에서 외부 함수의 지역 변수에 접근할 수 있음
 * inner 함수에서 title 변수에 접근할 수 있음
@@ -139,7 +137,7 @@ inner(); //JS 출력
 </code>
 </pre>
 
-## arguments
+#### books: arguments
 
 * 인자의 개수를 알 수 있음
 <pre>
@@ -155,7 +153,7 @@ arguments[i]
 </code>
 </pre>
 
-## 생성자
+#### :books: 생성자
 
 * 객체에 대한 초기화(init)
 <pre>
@@ -169,7 +167,7 @@ function Person(name) {
 </code>
 </pre>
 
-## this
+#### :books: this
 
 * 메소드와 this
 * 메소드가 소속되어 있는 객체를 가리킨다
@@ -196,7 +194,7 @@ if (funcThis === o2) {
 </code>
 </pre>
 
-## 상속
+#### :books: 상속
 
 * 객체를 생성자의 프로토타입에 할당해서 특정 객체를 상속받음
 <pre>
@@ -221,9 +219,9 @@ Super.prototype = new Ultra();
 </code>
 </pre>
 
-# Web Browser JS
+### :open_file_folder: Web Browser JS
 
-### 복습 (Language JS)
+##### :pencil: 복습 (Language JS)
 
 - [x] [함수지향 - 값으로서의 함수와 콜백 (비동기 콜백과 Ajax)](https://www.youtube.com/watch?v=NDFjwybbong)
 - [x] [함수지향 - 클로저 (클로저의 응용)](https://www.youtube.com/watch?v=9A0pMrS6Bh0)
@@ -233,4 +231,4 @@ Super.prototype = new Ultra();
 - [x] [객체지향 - this (apply와 this)](https://www.youtube.com/watch?v=j0TPsYspzbI)
 - [x] [객체지향 - 상속 (상속의 사용법)](https://www.youtube.com/watch?v=mM-4t2J0lYM)
 
-### 복습 (Web Browser JS)
+##### :pencil: 복습 (Web Browser JS)
