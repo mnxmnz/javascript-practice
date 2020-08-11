@@ -1,4 +1,4 @@
-## :computer: JavaScript
+## JavaScript
 
 * [Coding Everybody Language JS](https://opentutorials.org/course/743)
 * [Coding Everybody Web Browser JS](https://opentutorials.org/course/1375)
