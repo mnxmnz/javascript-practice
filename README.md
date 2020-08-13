@@ -1,9 +1,8 @@
 ## JavaScript
 
-* [Coding Everybody Language JS](https://opentutorials.org/course/743)
-* [Coding Everybody Web Browser JS](https://opentutorials.org/course/1375)
+* 생활코딩 JavaScript 강의 실습 코드 및 핵심 내용 정리 레포입니다. 
 
-### :open_file_folder: Language JS
+### :open_file_folder: [Language JS](https://opentutorials.org/course/743)
 
 #### :books: [배열](https://github.com/mnxmnz/JS_studying/tree/master/array)
 
@@ -219,7 +218,7 @@ Super.prototype = new Ultra();
 </code>
 </pre>
 
-#### :books: object
+#### :books: [object](https://github.com/mnxmnz/JS_studying/tree/master/object(OOP))
 
 * API (Object.keys())
 * 인자로 값을 받아서 처리함
@@ -251,7 +250,7 @@ for(var name in o) {
 </code>
 </pre>
 
-### :open_file_folder: Web Browser JS
+### :open_file_folder: [Web Browser JS](https://opentutorials.org/course/1375)
 
 ##### :pencil: 복습 (Language JS)
 
