@@ -5,7 +5,7 @@
 
 ### :open_file_folder: Language JS
 
-#### :books: 배열
+#### :books: [배열](https://github.com/mnxmnz/JS_studying/tree/master/array)
 
 * 배열에 데이터 한 개 추가하기
 <pre>
@@ -63,7 +63,7 @@
 </code>
 </pre>
 
-#### :books: 유효범위
+#### :books: [유효범위](https://github.com/mnxmnz/JS_studying/tree/master/scope)
 
 * 지역 변수를 선언할 수 있는 범위는 함수로 제한되어 있음
 * for문이나 if문 내에서 선언된 변수는 지역 변수의 의미를 갖지 않음
@@ -94,7 +94,7 @@ a(); //5 출력
 </code>
 </pre>
 
-#### :books: 함수
+#### :books: [함수](https://github.com/mnxmnz/JS_studying/tree/master/function)
 
 * 메소드
 * 객체의 속성 값으로 담겨진 함수
@@ -106,7 +106,7 @@ a = {
 </code>
 </pre>
 
-#### :books: 값으로서 함수와 콜백
+#### :books: [값으로서 함수와 콜백](https://github.com/mnxmnz/JS_studying/tree/master/function(valueBasedFunction%26callBack))
 
 * 콜백
 * 함수의 동작 방법을 값을 전달하는 것을 통해서 완전하게 바꿀 수 있음
@@ -120,7 +120,7 @@ alert(numbers.sort(sortfunc)); //sort 함수 동작 방법 변경
 </code>
 </pre>
 
-#### :books: 클로저
+#### :books: [closure](https://github.com/mnxmnz/JS_studying/tree/master/closure)
 
 * 내부 함수에서 외부 함수의 지역 변수에 접근할 수 있음
 * inner 함수에서 title 변수에 접근할 수 있음
@@ -137,7 +137,7 @@ inner(); //JS 출력
 </code>
 </pre>
 
-#### :books: arguments
+#### :books: [arguments](https://github.com/mnxmnz/JS_studying/tree/master/arguments)
 
 * 인자의 개수를 알 수 있음
 <pre>
@@ -153,7 +153,7 @@ arguments[i]
 </code>
 </pre>
 
-#### :books: 생성자
+#### :books: [생성자](https://github.com/mnxmnz/JS_studying/tree/master/constructor)
 
 * 객체에 대한 초기화(init)
 <pre>
@@ -167,7 +167,7 @@ function Person(name) {
 </code>
 </pre>
 
-#### :books: this
+#### :books: [this](https://github.com/mnxmnz/JS_studying/tree/master/this)
 
 * 메소드와 this
 * 메소드가 소속되어 있는 객체를 가리킨다
@@ -194,7 +194,7 @@ if (funcThis === o2) {
 </code>
 </pre>
 
-#### :books: 상속
+#### :books: [상속](https://github.com/mnxmnz/JS_studying/tree/master/inheritance)
 
 * 객체를 생성자의 프로토타입에 할당해서 특정 객체를 상속받음
 <pre>
@@ -219,6 +219,38 @@ Super.prototype = new Ultra();
 </code>
 </pre>
 
+#### :books: object
+
+* API (Object.keys())
+* 인자로 값을 받아서 처리함
+<pre>
+<code>
+var arr = ["a", "b", "c"];
+console.log('Object.keys(arr)', Object.keys(arr));
+</code>
+</pre>
+
+* API (Object.prototype.toString())
+* 객체를 만들어서 사용함
+<pre>
+<code>
+var o = new Object();
+console.log('o.toString()', o.toString());
+</code>
+</pre>
+
+* hasOwnProperty
+* 객체가 상속받은 프로퍼티인지 직접 정의한 프로퍼티인지 구별할 수 있음
+<pre>
+<code>
+for(var name in o) {
+    if(o.hasOwnProperty(name)) {
+        console.log(name)l
+    }
+}
+</code>
+</pre>
+
 ### :open_file_folder: Web Browser JS
 
 ##### :pencil: 복습 (Language JS)
@@ -230,5 +262,6 @@ Super.prototype = new Ultra();
 - [x] [객체지향 - this (객체로서 함수)](https://www.youtube.com/watch?v=6I421TLN9vg)
 - [x] [객체지향 - this (apply와 this)](https://www.youtube.com/watch?v=j0TPsYspzbI)
 - [x] [객체지향 - 상속 (상속의 사용법)](https://www.youtube.com/watch?v=mM-4t2J0lYM)
+- [x] [객체지향 - Object (Object 확장의 위험)](https://www.youtube.com/watch?v=WN1xywt7GdQ)
 
 ##### :pencil: 복습 (Web Browser JS)
