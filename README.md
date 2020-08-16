@@ -250,7 +250,7 @@ for(var name in o) {
 </code>
 </pre>
 
-#### :books: 참조
+#### :books: [참조](https://github.com/mnxmnz/JS_studying/tree/master/reference)
 
 * 객체
 * 똑같은 객체를 각각의 변수들이 참조함
