@@ -1,274 +1,30 @@
 ## JavaScript
 
-* 생활코딩 JavaScript 강의 실습 코드 및 핵심 내용 정리 레포입니다. 
+> 생활코딩 JavaScript 실습 코드 및 강의 내용 정리 레포입니다. 
 
 ### :open_file_folder: [Language JS](https://opentutorials.org/course/743)
 
-#### :books: [배열](https://github.com/mnxmnz/JS_studying/tree/master/array)
-
-* 배열에 데이터 한 개 추가
-<pre>
-<code>
-배열명.push(' ')
-</code>
-</pre>
-
-* 배열에 데이터 여러 개 추가
-<pre>
-<code>
-배열명 = 배열명.concat(' ', ' ', ' ');
-</code>
-</pre>
-
-* 배열의 시작점에 데이터 추가
-<pre>
-<code>
-배열명.unshift(' ');
-</code>
-</pre>
-
-* 배열의 중간에 데이터 추가
-<pre>
-<code>
-배열명.splice(배열에 추가할 위치를 가리키는 index, 제거될 원소들의 수, ' ', ' ', ' ');
-</code>
-</pre>
-
-* 배열의 첫 번째 데이터 제거
-<pre>
-<code>
-배열명.shift();
-</code>
-</pre>
-
-* 배열의 마지막 데이터 제거
-<pre>
-<code>
-배열명.pop();
-</code>
-</pre>
-
-* 배열 데이터 오름차순 정렬
-<pre>
-<code>
-배열명.sort();
-</code>
-</pre>
-
-* 배열 데이터 내림차순 정렬
-<pre>
-<code>
-배열명.reverse();
-</code>
-</pre>
-
-#### :books: [유효범위](https://github.com/mnxmnz/JS_studying/tree/master/scope)
-
-* 지역 변수를 선언할 수 있는 범위는 함수로 제한되어 있음
-* for문이나 if문 내에서 선언된 변수는 지역 변수의 의미를 갖지 않음
-<pre>
-<code>
-for(i = 0; i < 5; i++) {
-    var name = 'JS'; //지역 변수의 의미를 갖지 않음
-}
-</code>
-</pre>
-
-* 정적 유효범위
-* 함수가 사용된 시점이 아닌, 정의된 시점에서 변수 사용
-<pre>
-<code>
-var i = 5;
-
-function a() {
-    var i = 10;
-    b();
-}
-
-function b() {
-    document.write(i);
-}
-
-a(); //5 출력
-</code>
-</pre>
-
-#### :books: [함수](https://github.com/mnxmnz/JS_studying/tree/master/function)
-
-* 메소드
-* 객체의 속성 값으로 담겨진 함수
-<pre>
-<code>
-a = {
-    b:function(){}
-}
-</code>
-</pre>
-
-#### :books: [값으로서 함수와 콜백](https://github.com/mnxmnz/JS_studying/tree/master/function(valueBasedFunction%26callBack))
-
-* 콜백
-* 함수의 동작 방법을 값을 전달하는 것을 통해서 완전하게 바꿀 수 있음
-<pre>
-<code>
-var numbers = [20, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1];
-var sortfunc = function (a, b) { //콜백 함수 sortfunc 사용
-    return a - b;
-};
-alert(numbers.sort(sortfunc)); //sort 함수 동작 방법 변경
-</code>
-</pre>
-
-#### :books: [closure](https://github.com/mnxmnz/JS_studying/tree/master/closure)
-
-* 내부 함수에서 외부 함수의 지역 변수에 접근할 수 있음
-* inner 함수에서 title 변수에 접근할 수 있음
-<pre>
-<code>
-function outter() {
-    var title = 'JS';
-    return function () {
-        alert(title);
-    }
-}
-inner = outter();
-inner(); //JS 출력
-</code>
-</pre>
-
-#### :books: [arguments](https://github.com/mnxmnz/JS_studying/tree/master/arguments)
-
-* 인자의 개수를 알 수 있음
-<pre>
-<code>
-arguments.length
-</code>
-</pre>
-
-* 인자의 특정 자릿수의 값을 알 수 있음
-<pre>
-<code>
-arguments[i]
-</code>
-</pre>
-
-#### :books: [생성자](https://github.com/mnxmnz/JS_studying/tree/master/constructor)
-
-* 객체에 대한 초기화(init)
-<pre>
-<code>
-function Person(name) {
-    this.name = name;
-    this.introduce = function () {
-        return 'My name is ' + this.name;
-    }
-}
-</code>
-</pre>
-
-#### :books: [this](https://github.com/mnxmnz/JS_studying/tree/master/this)
-
-* 메소드와 this
-* 메소드가 소속되어 있는 객체를 가리킴
-<pre>
-<code>
-var o = {
-    func : function () {
-        if(o === this) {
-            document.write("o === this");
-        }
-    }
-}
-</code>
-</pre>
-
-* 생성자와 this
-* 생성자가 만든 객체를 가리킴
-<pre>
-<code>
-var o2 = new Func();
-if (funcThis === o2) {
-    document.write('o2 <br />');
-}
-</code>
-</pre>
-
-#### :books: [상속](https://github.com/mnxmnz/JS_studying/tree/master/inheritance)
-
-* 객체를 생성자의 프로토타입에 할당해서 특정 객체를 상속받음
-<pre>
-<code>
-function Person(name) {
-    this.name = name;
-}
-
-Person.prototype.name = null;
-</code>
-</pre>
-
-* prototype
-* 객체의 원형(메소드, 프로퍼티)이 저장되어 있음
-<pre>
-<code>
-function Ultra() {}
-Ultra.prototype.ultraProp = true;
-
-function Super() {}
-Super.prototype = new Ultra();
-</code>
-</pre>
-
-#### :books: [object](https://github.com/mnxmnz/JS_studying/tree/master/object(OOP))
-
-* API (Object.keys())
-* 인자로 값을 받아서 처리함
-<pre>
-<code>
-var arr = ["a", "b", "c"];
-console.log('Object.keys(arr)', Object.keys(arr));
-</code>
-</pre>
-
-* API (Object.prototype.toString())
-* 객체를 만들어서 사용함
-<pre>
-<code>
-var o = new Object();
-console.log('o.toString()', o.toString());
-</code>
-</pre>
-
-* hasOwnProperty
-* 객체가 상속받은 프로퍼티인지 직접 정의한 프로퍼티인지 구별할 수 있음
-<pre>
-<code>
-for(var name in o) {
-    if(o.hasOwnProperty(name)) {
-        console.log(name)l
-    }
-}
-</code>
-</pre>
-
-#### :books: [참조](https://github.com/mnxmnz/JS_studying/tree/master/reference)
-
-* 객체
-* 똑같은 객체를 각각의 변수들이 참조함
-<pre>
-<code>
-var a = {'id':1};
-var b = a;
-</code>
-</pre>
-
-* 원시 값(string, number, bigint, boolean, undefined, symbol)
-* a에 담겨 있던 값이 새로 만들어지고 그것이 b에 담김
-<pre>
-<code>
-var a = 1;
-var b = a;
-</code>
-</pre>
+| 목차 | 실습 코드 | 강의 내용 |
+| --- | --- | --- |
+| 1. 숫자 문자 변수 | [Code](https://github.com/mnxmnz/JS_studying/tree/master/basics) | [Study with Code](https://github.com/mnxmnz/JS_studying/tree/master/basics) |
+| 2. 비교 | [Code](https://github.com/mnxmnz/JS_studying/tree/master/compare) | [Study with Code](https://github.com/mnxmnz/JS_studying/tree/master/compare) |
+| 3. 조건문 | [Code](https://github.com/mnxmnz/JS_studying/tree/master/conditionalStatement) | [Study with Code](https://github.com/mnxmnz/JS_studying/tree/master/conditionalStatement) |
+| 4. 반복문 | [Code](https://github.com/mnxmnz/JS_studying/tree/master/loop) | [Study with Code](https://github.com/mnxmnz/JS_studying/tree/master/loop) |
+| 5. 함수 | [Code](https://github.com/mnxmnz/JS_studying/tree/master/function) | [MarkDown](https://github.com/mnxmnz/JS_studying/blob/master/function/function.md) |
+| 6. 배열 | [Code](https://github.com/mnxmnz/JS_studying/tree/master/array) | [MarkDown](https://github.com/mnxmnz/JS_studying/blob/master/array/array.md) |
+| 7. 객체 | [Code](https://github.com/mnxmnz/JS_studying/tree/master/object) | [Study with Code](https://github.com/mnxmnz/JS_studying/tree/master/object) |
+| 8. 모듈 | [Code](https://github.com/mnxmnz/JS_studying/tree/master/module) | [Study with Code](https://github.com/mnxmnz/JS_studying/tree/master/module) |
+| 9. 유효범위 | [Code](https://github.com/mnxmnz/JS_studying/tree/master/scope) | [MarkDown](https://github.com/mnxmnz/JS_studying/blob/master/scope/scope.md) |
+| 10. 값으로서의 함수와 콜백 | [Code](https://github.com/mnxmnz/JS_studying/tree/master/function(valueBasedFunction%26callBack)) | [MarkDown](https://github.com/mnxmnz/JS_studying/blob/master/function(valueBasedFunction%26callBack)/function.md) :black_small_square: [Blog](https://cbw1030.tistory.com/200?category=1142019) |
+| 11. 클로저 | [Code](https://github.com/mnxmnz/JS_studying/tree/master/closure) | [MarkDown](https://github.com/mnxmnz/JS_studying/blob/master/closure/closure.md) :black_small_square: [Blog](https://cbw1030.tistory.com/243?category=1142019) |
+| 12. arguments | [Code](https://github.com/mnxmnz/JS_studying/tree/master/arguments) | [MarkDown](https://github.com/mnxmnz/JS_studying/blob/master/arguments/arguments.md) :black_small_square: [Blog](https://cbw1030.tistory.com/257?category=1142019) |
+| 13. 함수의 호출 | [Code](https://github.com/mnxmnz/JS_studying/tree/master/apply) | [Study with Code](https://github.com/mnxmnz/JS_studying/tree/master/apply) |
+| 14. 생성자와 new | [Code](https://github.com/mnxmnz/JS_studying/tree/master/constructor) | [MarkDown](https://github.com/mnxmnz/JS_studying/blob/master/constructor/constructor.md) |
+| 15. this | [Code](https://github.com/mnxmnz/JS_studying/tree/master/this) | [MarkDown](https://github.com/mnxmnz/JS_studying/blob/master/this/this.md) |
+| 16. 상속 | [Code](https://github.com/mnxmnz/JS_studying/tree/master/inheritance) | [MarkDown](https://github.com/mnxmnz/JS_studying/blob/master/inheritance/inheritance.md) |
+| 17. 표준 내장 객체의 확장 | [Code](https://github.com/mnxmnz/JS_studying/tree/master/expansion) | [Study with Code](https://github.com/mnxmnz/JS_studying/tree/master/expansion) |
+| 18. 객체 지향 프로그래밍 | [Code](https://github.com/mnxmnz/JS_studying/tree/master/object(OOP)) | [MarkDown](https://github.com/mnxmnz/JS_studying/blob/master/object(OOP)/object.md) |
+| 19. 참조 | [Code](https://github.com/mnxmnz/JS_studying/tree/master/reference) | [MarkDown](https://github.com/mnxmnz/JS_studying/blob/master/reference/reference.md) |
 
 ### :open_file_folder: [Web Browser JS](https://opentutorials.org/course/1375)
 
