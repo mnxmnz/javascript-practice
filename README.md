@@ -282,5 +282,6 @@ var b = a;
 - [x] [객체지향 - this (apply와 this)](https://www.youtube.com/watch?v=j0TPsYspzbI)
 - [x] [객체지향 - 상속 (상속의 사용법)](https://www.youtube.com/watch?v=mM-4t2J0lYM)
 - [x] [객체지향 - Object (Object 확장의 위험)](https://www.youtube.com/watch?v=WN1xywt7GdQ)
+- [x] [객체지향 - 참조 (함수의 참조)](https://www.youtube.com/watch?v=oXIhaqIQWUo)
 
 ##### :pencil: 복습 (Web Browser JS)
