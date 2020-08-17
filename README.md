@@ -1,4 +1,4 @@
-## JavaScript
+## JavaScript Study
 
 > 생활코딩 JavaScript 실습 코드 및 강의 내용 정리 레포입니다. 
 
