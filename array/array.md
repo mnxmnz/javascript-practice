@@ -1,5 +1,11 @@
-
 #### :books: 배열
+
+* 함수의 리턴값이 여러 개의 값을 가질 때 사용
+<pre>
+<code>
+var imgs = document.getElementsByTagName('img');
+</code>
+</pre>
 
 * 배열에 데이터 한 개 추가
 <pre>
