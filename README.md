@@ -1,6 +1,6 @@
 ## JavaScript Study
 
-> 생활코딩 JavaScript 실습 코드 및 강의 내용 정리 레포입니다. 
+생활코딩 JavaScript 실습 코드 및 강의 내용 정리 레포입니다. 
 
 ### :open_file_folder: [Language JS](https://opentutorials.org/course/743)
 
@@ -27,17 +27,3 @@
 | 19. 참조 | [Code](https://github.com/mnxmnz/JS_studying/tree/master/reference) | [MarkDown](https://github.com/mnxmnz/JS_studying/blob/master/reference/reference.md) |
 
 ### :open_file_folder: [Web Browser JS](https://opentutorials.org/course/1375)
-
-##### :pencil: 복습 (Language JS)
-
-- [x] [함수지향 - 값으로서의 함수와 콜백 (비동기 콜백과 Ajax)](https://www.youtube.com/watch?v=NDFjwybbong)
-- [x] [함수지향 - 클로저 (클로저의 응용)](https://www.youtube.com/watch?v=9A0pMrS6Bh0)
-- [x] [함수지향 - 함수의 호출 (apply 사용)](https://www.youtube.com/watch?v=Ubs30Xxe-Ps)
-- [x] [객체지향 - this (생성자와 this)](https://www.youtube.com/watch?v=TdkYLonYuDw)
-- [x] [객체지향 - this (객체로서 함수)](https://www.youtube.com/watch?v=6I421TLN9vg)
-- [x] [객체지향 - this (apply와 this)](https://www.youtube.com/watch?v=j0TPsYspzbI)
-- [x] [객체지향 - 상속 (상속의 사용법)](https://www.youtube.com/watch?v=mM-4t2J0lYM)
-- [x] [객체지향 - Object (Object 확장의 위험)](https://www.youtube.com/watch?v=WN1xywt7GdQ)
-- [x] [객체지향 - 참조 (함수의 참조)](https://www.youtube.com/watch?v=oXIhaqIQWUo)
-
-##### :pencil: 복습 (Web Browser JS)
