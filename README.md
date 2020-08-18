@@ -15,9 +15,9 @@
 | 7. 객체 | [Code](https://github.com/mnxmnz/JS_studying/tree/master/object) | [Study with Code](https://github.com/mnxmnz/JS_studying/tree/master/object) |
 | 8. 모듈 | [Code](https://github.com/mnxmnz/JS_studying/tree/master/module) | [Study with Code](https://github.com/mnxmnz/JS_studying/tree/master/module) |
 | 9. 유효범위 | [Code](https://github.com/mnxmnz/JS_studying/tree/master/scope) | [MarkDown](https://github.com/mnxmnz/JS_studying/blob/master/scope/scope.md) |
-| 10. 값으로서의 함수와 콜백 | [Code](https://github.com/mnxmnz/JS_studying/tree/master/function(valueBasedFunction%26callBack)) | [MarkDown](https://github.com/mnxmnz/JS_studying/blob/master/function(valueBasedFunction%26callBack)/function.md) :black_small_square: [Blog](https://cbw1030.tistory.com/200?category=1142019) |
-| 11. 클로저 | [Code](https://github.com/mnxmnz/JS_studying/tree/master/closure) | [MarkDown](https://github.com/mnxmnz/JS_studying/blob/master/closure/closure.md) :black_small_square: [Blog](https://cbw1030.tistory.com/243?category=1142019) |
-| 12. arguments | [Code](https://github.com/mnxmnz/JS_studying/tree/master/arguments) | [MarkDown](https://github.com/mnxmnz/JS_studying/blob/master/arguments/arguments.md) :black_small_square: [Blog](https://cbw1030.tistory.com/257?category=1142019) |
+| 10. 값으로서의 함수와 콜백 | [Code](https://github.com/mnxmnz/JS_studying/tree/master/function(valueBasedFunction%26callBack)) | [MarkDown](https://github.com/mnxmnz/JS_studying/blob/master/function(valueBasedFunction%26callBack)/function.md) :link: [Blog](https://cbw1030.tistory.com/200?category=1142019) |
+| 11. 클로저 | [Code](https://github.com/mnxmnz/JS_studying/tree/master/closure) | [MarkDown](https://github.com/mnxmnz/JS_studying/blob/master/closure/closure.md) :link: [Blog](https://cbw1030.tistory.com/243?category=1142019) |
+| 12. arguments | [Code](https://github.com/mnxmnz/JS_studying/tree/master/arguments) | [MarkDown](https://github.com/mnxmnz/JS_studying/blob/master/arguments/arguments.md) :link: [Blog](https://cbw1030.tistory.com/257?category=1142019) |
 | 13. 함수의 호출 | [Code](https://github.com/mnxmnz/JS_studying/tree/master/apply) | [Study with Code](https://github.com/mnxmnz/JS_studying/tree/master/apply) |
 | 14. 생성자와 new | [Code](https://github.com/mnxmnz/JS_studying/tree/master/constructor) | [MarkDown](https://github.com/mnxmnz/JS_studying/blob/master/constructor/constructor.md) |
 | 15. this | [Code](https://github.com/mnxmnz/JS_studying/tree/master/this) | [MarkDown](https://github.com/mnxmnz/JS_studying/blob/master/this/this.md) |
