@@ -25,5 +25,3 @@
 | 17. 표준 내장 객체의 확장 | [Code](https://github.com/mnxmnz/JS_studying/tree/master/expansion) | [Study with Code](https://github.com/mnxmnz/JS_studying/tree/master/expansion) |
 | 18. 객체 지향 프로그래밍 | [Code](https://github.com/mnxmnz/JS_studying/tree/master/object(OOP)) | [MarkDown](https://github.com/mnxmnz/JS_studying/blob/master/object(OOP)/object.md) |
 | 19. 참조 | [Code](https://github.com/mnxmnz/JS_studying/tree/master/reference) | [MarkDown](https://github.com/mnxmnz/JS_studying/blob/master/reference/reference.md) |
-
-### :open_file_folder: [Web Browser JS](https://opentutorials.org/course/1375)
