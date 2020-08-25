@@ -19,7 +19,7 @@
 | 11. 클로저 | [Code](https://github.com/mnxmnz/JS_studying/tree/master/closure) | [MarkDown](https://github.com/mnxmnz/JS_studying/blob/master/closure/closure.md) :link: [Blog](https://bixdata.tistory.com/89) |
 | 12. arguments | [Code](https://github.com/mnxmnz/JS_studying/tree/master/arguments) | [MarkDown](https://github.com/mnxmnz/JS_studying/blob/master/arguments/arguments.md) :link: [Blog](https://bixdata.tistory.com/90) |
 | 13. 함수의 호출 | [Code](https://github.com/mnxmnz/JS_studying/tree/master/apply) | [Study with Code](https://github.com/mnxmnz/JS_studying/tree/master/apply) |
-| 14. 생성자와 new | [Code](https://github.com/mnxmnz/JS_studying/tree/master/constructor) | [MarkDown](https://github.com/mnxmnz/JS_studying/blob/master/constructor/constructor.md) |
+| 14. 생성자와 new | [Code](https://github.com/mnxmnz/JS_studying/tree/master/constructor) | [MarkDown](https://github.com/mnxmnz/JS_studying/blob/master/constructor/constructor.md) :link: [Blog](https://bixdata.tistory.com/92) |
 | 15. this | [Code](https://github.com/mnxmnz/JS_studying/tree/master/this) | [MarkDown](https://github.com/mnxmnz/JS_studying/blob/master/this/this.md) |
 | 16. 상속 | [Code](https://github.com/mnxmnz/JS_studying/tree/master/inheritance) | [MarkDown](https://github.com/mnxmnz/JS_studying/blob/master/inheritance/inheritance.md) |
 | 17. 표준 내장 객체의 확장 | [Code](https://github.com/mnxmnz/JS_studying/tree/master/expansion) | [Study with Code](https://github.com/mnxmnz/JS_studying/tree/master/expansion) |
