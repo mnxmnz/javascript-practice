@@ -2,8 +2,8 @@
 
 * 내부 함수에서 외부 함수의 지역 변수에 접근할 수 있음
 * inner 함수에서 title 변수에 접근할 수 있음
-<pre>
-<code>
+
+```js
 function outter() {
     var title = 'JS';
     return function () {
@@ -12,5 +12,4 @@ function outter() {
 }
 inner = outter();
 inner(); //JS 출력
-</code>
-</pre>
+```
