@@ -1,6 +1,6 @@
 ## JavaScript Study
 
-생활코딩 JavaScript 실습 코드 및 강의 내용 정리 레포입니다. 
+생활코딩 JavaScript 실습 코드 및 온라인 강의 내용 정리 레포입니다. 
 
 ### :open_file_folder: [Coding Everybody Language JS](https://opentutorials.org/course/743)
 
