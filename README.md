@@ -1,8 +1,8 @@
 ## JavaScript Study
 
+
 생활코딩 JavaScript 실습 코드 및 온라인 강의 내용 정리 레포입니다. 
 
-### :open_file_folder: [Coding Everybody Language JS](https://opentutorials.org/course/743)
 
 | 목차 | 실습 코드 | 강의 내용 |
 | --- | --- | --- |
@@ -25,3 +25,6 @@
 | 17. 표준 내장 객체의 확장 | [Code](https://github.com/mnxmnz/JS_studying/tree/master/expansion) | [Study with Code](https://github.com/mnxmnz/JS_studying/tree/master/expansion) |
 | 18. 객체 지향 프로그래밍 | [Code](https://github.com/mnxmnz/JS_studying/tree/master/object(OOP)) | [MarkDown](https://github.com/mnxmnz/JS_studying/blob/master/object(OOP)/object.md) |
 | 19. 참조 | [Code](https://github.com/mnxmnz/JS_studying/tree/master/reference) | [MarkDown](https://github.com/mnxmnz/JS_studying/blob/master/reference/reference.md) |
+
+
+### :open_file_folder: [Coding Everybody Language JS](https://opentutorials.org/course/743)
